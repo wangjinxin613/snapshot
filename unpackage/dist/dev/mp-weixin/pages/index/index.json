@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "拍影",
+  "usingComponents": {
+    "jin-icon": "/components/jin-icons/jin-icons"
+  }
+}
