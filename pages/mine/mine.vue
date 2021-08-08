@@ -1,22 +1,35 @@
 <template>
 	<view>
-		wode
+		<view class="head-img">
+			<image mode="aspectFill"
+				src="https://bjetxgzv.cdn.bspapp.com/VKCEYUGU-uni-app-doc/6acec660-4f31-11eb-a16f-5b3e54966275.jpg">
+			</image>
+		</view>
+		<view class="user-info-view">
+			<view class="nick-view">
+				<view class="username">小王</view>
+				<jinIcon type="&#xe632;" class="icon"></jinIcon>
+			</view>
+			<view class="introduction">这里是个性签名</view>
+		</view>
 	</view>
 </template>
 
 <script>
+	import jinIcon from '@/components/jin-icons/jin-icons.vue';
 	export default {
+		components:{
+			jinIcon: jinIcon
+		},
 		data() {
-			return {
-				
-			}
+			return {}
 		},
 		methods: {
-			
+
 		}
 	}
 </script>
 
-<style>
-
+<style lang="less" scoped>
+	@import url("./mine.less");
 </style>
