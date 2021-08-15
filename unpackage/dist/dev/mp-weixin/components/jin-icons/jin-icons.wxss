@@ -2,11 +2,11 @@
 @font-face {
 	font-family: 'jin';
 	/** 阿里巴巴矢量图标库的字体库地址，可以替换自己的字体库地址 **/
-	src: url('https://at.alicdn.com/t/font_2724148_rkhx4veuy7.ttf?t=1628145274881') format('truetype');
+	src: url('https://at.alicdn.com/t/font_2724148_qjf2vq30w3q.ttf?t=1628326967030') format('truetype');
 }
 .jin-icon.data-v-06d4d004 {
 	font-family: jin !important;
-	font-size: 34rpx;
+	/* font-size: 34rpx; */
 }
 
 
