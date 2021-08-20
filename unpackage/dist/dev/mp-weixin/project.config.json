@@ -26,7 +26,7 @@
       "list": []
     },
     "miniprogram": {
-      "current": 1,
+      "current": 2,
       "list": [
         {
           "name": "首页",
@@ -39,6 +39,12 @@
           "query": "",
           "id": 1,
           "pathName": "pages/mine/mine"
+        },
+        {
+          "name": "详情页",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/detail/detail"
         }
       ]
     }

@@ -21,7 +21,7 @@
 			<swiper class="index-view-swiper">
 				<swiper-item v-for="(item, index) in dataList" :key="index">
 					<view class="content-view">
-						<view class="single" v-for="item in 10">
+						<navigator url="../detail/detail" hover-class="none" class="single" v-for="item in 10">
 							<view class="user-info">
 								<view class="logo">
 									<image src="../../static/logo.png" alt="logo"/>
@@ -56,7 +56,7 @@
 									<text>收藏</text>
 								</view>
 							</view>
-						</view>
+						</navigator>
 					</view>
 				</swiper-item>
 			</swiper>

@@ -187,7 +187,7 @@
 .content-view .tool-view .symbol .icon.data-v-57280228 {
   color: #888;
 }
-.content-view .tool-view .symbol text.data-v-57280228 {
+.content-view .tool-view .symbol .text.data-v-57280228 {
   font-size: 30rpx;
   color: #888;
   margin-left: 8rpx;
@@ -195,10 +195,10 @@
 .content-view .tool-view .symbol.active .icon.data-v-57280228 {
   color: red;
 }
-.content-view .tool-view .symbol.active text.data-v-57280228 {
+.content-view .tool-view .symbol.active .text.data-v-57280228 {
   color: red;
 }
 .index-view-swiper.data-v-57280228 {
-  height: 1000px;
+  height: 1000rpx;
 }
 
